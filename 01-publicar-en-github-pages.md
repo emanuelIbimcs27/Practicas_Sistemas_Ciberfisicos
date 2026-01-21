@@ -4,7 +4,7 @@ title: Práctica 1: Sistemas Embebidos
 nav_order: 2
 ---
 
-# Parte 1: Uso de diferentes microcontroladores
+# Práctica 1: Sistemas Embebidos
 
 En esta parte, programamos diferentes microcontroladores con el objetivo de aprender a utilizarlos, conocer sus distintas interfaces de programación y desarrollar un programa sencillo para hacer parpadear el **LED integrado** de cada uno:
 
