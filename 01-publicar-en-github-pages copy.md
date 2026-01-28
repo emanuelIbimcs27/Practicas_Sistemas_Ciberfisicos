@@ -25,8 +25,11 @@ Aquí se incluye una captura de pantalla de la configuración del entorno/intér
 *Figura 2:* Thonny Micropyhton.
 
 ### 1.3 Video
-![Figura 3 — GitHub](assets/img/01-publicar/vESP32.mp4)
-*Figura 2:* Video del parpadeo (blink) del LED integrado en el ESP32.
+```html
+<video controls width="720">
+  <source src="{{ '/assets/img/01-publicar/vESP32.mp4' | relative_url }}" type="video/mp4">
+</video>
+```
 
 ### 1.4 Programa
 A continuación se muestra el *código utilizado* para hacer parpadear el LED integrado. Este programa permite verificar que la placa fue detectada correctamente y que la carga/ejecución funciona como se espera.
@@ -44,3 +47,4 @@ A continuación se muestra el *código utilizado* para hacer parpadear el LED in
       time.sleep(0.5)
       LED.value(0)
       time.sleep(0.5)
+```
