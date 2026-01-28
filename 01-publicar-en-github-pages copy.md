@@ -27,7 +27,7 @@ Aquí se incluye una captura de pantalla de la configuración del entorno/intér
 ### 1.3 Video
 ```html
 <video controls width="720">
-  <source src="{{ 'assets/img/01-publicar/vESP32.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/img/01-publicar/vESP32.mp4' | relative_url }}" type="video/mp4">
   Tu navegador no soporta video HTML5.
 </video>
 ```
@@ -37,7 +37,7 @@ A continuación se muestra el *código utilizado* para hacer parpadear el LED in
 
 
 ````md
-```python
+```Mirco python
 # blink_esp32_devkitv1.py
 from machine import Pin
 import time
