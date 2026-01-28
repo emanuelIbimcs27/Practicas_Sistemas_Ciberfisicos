@@ -13,7 +13,7 @@ En esta parte, programamos diferentes microcontroladores con el objetivo de apre
 ## 1) ESP32 DevKit V1
 
 ### 1.1 Imagen del micro utilizado
-En este apartado se muestra una fotografía del *ESP32 DevKit V1* que se utilizó, para identificar claramente el modelo y sus componentes principales (pines, puerto USB, etc.).
+En este apartado se muestra una fotografía del *ESP32 DevKit V1* que se utilizó, para identificar claramente el modelo y sus componentes principales (pines, puerto, etc.).
 
 ![Figura 1 — GitHub](assets/img/01-publicar/Esp32.jpeg)
 *Figura 1:* ESP32 DevKit V1.
@@ -27,7 +27,7 @@ Aquí se incluye una captura de pantalla de la configuración del entorno/intér
 ### 1.3 Video
 ```html
 <video controls width="720">
-  <source src="{{ '/assets/img/01-publicar/vESP32.mp4' | relative_url }}" type="video/mp4">
+  <source src="{{ '/assets/videos/vESP32.mp4' | relative_url }}" type="video/mp4">
   Tu navegador no soporta video HTML5.
 </video>
 ```
@@ -49,5 +49,41 @@ while True:
     time.sleep(0.5)
     LED.value(0)
     time.sleep(0.5)
+```
+````
+
+## 2) Arduino UNO
+
+### 2.1 Imagen del micro utilizado
+En este apartado se muestra una fotografía del *Arduino UNO* que se utilizó, para identificar claramente el modelo y sus componentes principales (pines, puerto, etc.).
+
+![Figura 3 — GitHub](assets/img/01-publicar/ArduinoUNO.jpeg)
+*Figura 3:* Arduino UNO.
+
+### 2.2 Imagen de la configuración del intérprete
+Aquí se incluye una captura de pantalla de la configuración del intérprete utilizado (en este caso, **La IDE de arduino**), mostrando parámetros clave como el modelo de la placa y el puerto COM.
+
+![Figura 4 — GitHub](assets/img/01-publicar/interpreteArduinoUNO.jpeg)
+*Figura 4:* Arduino IDE.
+
+### 2.3 Video
+
+
+### 2.4 Programa
+A continuación se muestra el *código utilizado* para hacer parpadear el LED integrado en el arduino. Este programa permite verificar que la placa fue detectada correctamente y que la carga funciona como se espera.
+
+````md
+```Arduino
+// blink_uno_nano.ino
+void setup() {
+  pinMode(LED_BUILTIN, OUTPUT);
+}
+
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(500);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(500);
+}
 ```
 ````
