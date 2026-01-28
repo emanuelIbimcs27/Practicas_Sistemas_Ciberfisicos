@@ -4,7 +4,7 @@ title: Práctica 1: Sistemas Embebidos
 nav_order: 2
 ---
 
-# Práctica 1: Sistemas Embebidos
+# Sistemas Embebidos
 
 En esta parte, programamos diferentes microcontroladores con el objetivo de aprender a utilizarlos, conocer sus distintas interfaces de programación y desarrollar un programa sencillo para hacer parpadear el **LED integrado** de cada uno:
 
@@ -27,13 +27,3 @@ En esta sección se presenta una imagen del **diagrama de conexión o esquema** 
 
 ### 1.4 Programa
 A continuación se muestra el **código utilizado** para hacer parpadear el LED integrado. Este programa permite verificar que la placa fue detectada correctamente y que la carga/ejecución funciona como se espera.
-```python
-# blink_esp32_devkitv1.py
-from machine import Pin
-import time
-LED = Pin(2, Pin.OUT)
-while True:
-    LED.value(1)
-    time.sleep(0.5)
-    LED.value(0)
-    time.sleep(0.5)
