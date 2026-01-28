@@ -105,7 +105,7 @@ En esta sección se presenta una fotografía del **Arduino Nano** empleado duran
 
 A continuación se muestra una captura de pantalla de la **IDE de Arduino**, donde se observa la selección del modelo de placa correspondiente al **Arduino Nano** y el puerto de comunicación.
 
-![Figura 4 — IDE Arduino Nano](assets/img/01-publicar/ArduinoNano.jpeg)
+![Figura 4 — IDE Arduino Nano](assets/img/01-publicar/IDEarduino.jpeg)
 
 *Figura 4: Configuración de placa y puerto para Arduino Nano.*
 
