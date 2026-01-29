@@ -202,7 +202,6 @@ while True:
     LED.value(1)  # OFF
     time.sleep(0.5)
 ```
-
 ## 5) XIAO RP2040
 
 ### 5.1 Imagen del micro utilizado
