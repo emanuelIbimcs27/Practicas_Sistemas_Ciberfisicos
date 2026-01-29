@@ -205,7 +205,6 @@ while True:
 ## 5) XIAO RP2040
 
 ### 5.1 Imagen del micro utilizado
-
 En este apartado se muestra una fotografía del *XIAO RP2040* que se utilizó, para identificar claramente el modelo y sus componentes principales (pines, puerto, etc.).
 
 ![Figura 10 — GitHub](assets/img/01-publicar/RP20240.jpg)
