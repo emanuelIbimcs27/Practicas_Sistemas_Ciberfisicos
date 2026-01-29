@@ -178,7 +178,12 @@ Posteriormente se abrió **Thonny** y se configuró el intérprete seleccionando
 
 ### 4.4 Video
 
-[Ver video de funcionamiento de la XIAO ESP32-S3](assets/videos/vXIAO_ESP32S3.mp4)
+En el siguiente enlace se puede visualizar el video del funcionamiento del XIAO ESP32-S3, donde se observa el parpadeo del LED integrado:
+
+<video controls width="720">
+  <source src="{{ 'assets/videos/vXIAO_ESP32S3.mp4' | relative_url }}" type="video/mp4">
+  Tu navegador no soporta video HTML5.
+</video>
 
 ---
 
